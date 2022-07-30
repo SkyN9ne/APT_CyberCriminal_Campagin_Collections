@@ -1,9 +1,9 @@
-C&C Server Validation Script
+#C&C Server Validation Script
  
-To validate a host suspected of being a Cyclops Blink C&C server, 
-we wrote a script that would perform the TLS handshake, send 
-a 4-byte packet, and wait for the 4-byte response from the 
-server. The source code for the script is as follows:
+#To validate a host suspected of being a Cyclops Blink C&C server, 
+#we wrote a script that would perform the TLS handshake, send 
+#a 4-byte packet, and wait for the 4-byte response from the 
+#server. The source code for the script is as follows:
 
 #!/usr/bin/env python3
  
